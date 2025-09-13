@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+
+#caixa{
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    height: 470px; 
+    width: 300px;
+    border-radius: 15px;
+    border-color: rgb(14, 13, 13);
+    box-shadow: 3px 2px 6px black;
+    
+    
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#titulo{
+   text-decoration: underline;   
+}
+#nome{
+    text-align: center;
+    height: 35px;
+    width: 180px; 
+    border-radius: 5px;
+    border-color: transparent;
+    position: relative;
+    left:5px;
+    
+
+}
+#altura{
+    text-align: center;
+    height: 35px;
+    width: 180px;
+    border-radius: 5px;
+    border-color: transparent;
+    position: relative;
+
+}
+
+#peso{
+    text-align: center;
+    height: 35px;
+    width: 180px;
+    border-radius: 5px;
+    border-color: transparent;
+    position: relative;
+    left: 6px;
+   
+}
+#botao{
+    background-color: black;
+    color: yellow;
+    border-radius: 5px;
+    box-shadow: 1px 0px 3px black;
+    font-weight: bold;
+    height: 30px;
+    width: 250px;
+    text-align: center;
+}
+#msg{
+    text-align: center;
+    display: block;
+    flex-wrap: wrap;
+    font-weight: normal;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 7px;
+    height: 125px;
+    width: 250px;
+    margin:auto;
+    box-shadow: 2px 3px 5px rgb(36, 36, 36) ;
+    padding-top: 20px;
+    
+
+   
+}
